@@ -1,0 +1,170 @@
+apiVersion: v1
+entries:
+  argocd-azimuth:
+  - annotations:
+      azimuth.stackhpc.com/label: Argo CD
+    apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.620441902Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 9.1.6
+    description: An Argo CD environment for GitOps-based management of applications
+      deployed on Kubernetes.
+    digest: 939e07305b0ddf40881f4022c95bea986a93d15886ea61d2783caf84f8af04c9
+    icon: https://raw.githubusercontent.com/argoproj/argo-cd/release-2.11/docs/assets/argo.png
+    name: argocd-azimuth
+    type: application
+    urls:
+    - argocd-azimuth-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  binderhub-azimuth:
+  - annotations:
+      azimuth.stackhpc.com/label: BinderHub
+    apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.626267154Z"
+    dependencies:
+    - name: binderhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.0.0-0.dev.git.3503.ha8a2e19
+    description: Multi-user BinderHub Jupyter notebook environment.
+    digest: ca9798f27ae56051cd3876011692c7a0693b3464eb861f032a3570708cd71bb9
+    icon: https://raw.githubusercontent.com/jupyterhub/binderhub/main/binderhub/static/logo.svg
+    keywords:
+    - jupyter
+    - binderhub
+    name: binderhub-azimuth
+    type: application
+    urls:
+    - binderhub-azimuth-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  daskhub-azimuth:
+  - annotations:
+      azimuth.stackhpc.com/label: DaskHub
+    apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.632104312Z"
+    dependencies:
+    - name: daskhub
+      repository: https://helm.dask.org/
+      version: 2024.1.1
+    description: Multi-user Jupyter notebook environment with Dask integration.
+    digest: 5154e96a4d592375cf5895fbcc1d9cdd2a36e617ad6e2c5691dc132b095a2af1
+    icon: https://docs.dask.org/en/stable/_images/dask_horizontal.svg
+    keywords:
+    - dask
+    - daskhub
+    name: daskhub-azimuth
+    type: application
+    urls:
+    - daskhub-azimuth-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  jupyterhub-azimuth:
+  - annotations:
+      azimuth.stackhpc.com/label: JupyterHub
+    apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.63662666Z"
+    dependencies:
+    - name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 4.4.0
+    description: Multi-user Jupyter notebook environment.
+    digest: 3249612cb9b69964768edecd2d4f8f78e6e021caaf97acdb7015f5ef37555a91
+    icon: https://raw.githubusercontent.com/jupyterhub/helm-chart/gh-pages/images/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    name: jupyterhub-azimuth
+    type: application
+    urls:
+    - jupyterhub-azimuth-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  kubeflow-azimuth:
+  - annotations:
+      azimuth.stackhpc.com/label: KubeFlow
+    apiVersion: v1
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.676925561Z"
+    description: A KubeFlow machine learning environment (requires a cluster with
+      12+ CPUs and 16GB+ of RAM).
+    digest: 941c0f63d6a04f6e988bab9a3b3be8f32adce86e2348cd10e05e28b3a999e648
+    icon: https://raw.githubusercontent.com/azimuth-cloud/azimuth-charts/main/kubeflow-azimuth/logo.svg
+    name: kubeflow-azimuth
+    urls:
+    - kubeflow-azimuth-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  kubeflow-crds:
+  - apiVersion: v1
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.709640901Z"
+    digest: fca0f588193fc72212bc896f4e558a9b71108dc0ea9aba8b494b6693d3ef5559
+    name: kubeflow-crds
+    urls:
+    - kubeflow-crds-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  patch-copy-fail:
+  - apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.709910099Z"
+    description: 'Helm chart for deploying a daemonset to mitigate CVE-2026-31431
+      on a kubeadm cluster. '
+    digest: 7326be272b77673fa199b68cc900a051a4f3766f2b567dd3b1cb3e0bb7fe1ddd
+    name: patch-copy-fail
+    type: application
+    urls:
+    - patch-copy-fail-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  patch-cves:
+  - apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.710172534Z"
+    description: 'Helm chart for deploying a daemonset to apply runtime CVE mitigations
+      to hosts '
+    digest: 005c5f8a907c39fc6eaed72189425825b8bce78369e8baf9873bc575e43ee0f2
+    name: patch-cves
+    type: application
+    urls:
+    - patch-cves-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  patch-dirty-frag:
+  - apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.710418218Z"
+    description: 'Helm chart for deploying a daemonset to mitigate dirty-frag on a
+      kubeadm cluster. '
+    digest: ff749d07da8ec93f8566194121d5b1a0f7f2bfe76ee313bdd9202397527cff4a
+    name: patch-dirty-frag
+    type: application
+    urls:
+    - patch-dirty-frag-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  patch-ssh-keysign-pwn:
+  - apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.710681906Z"
+    description: 'Helm chart for deploying a daemonset to mitigate ssh-keysign-pwn
+      on a kubeadm cluster. '
+    digest: 12cf4145cfe1c4e96d7a6e08b8b7d30595c7e0b35ecfe6244a0698fc0a0ddc6a
+    name: patch-ssh-keysign-pwn
+    type: application
+    urls:
+    - patch-ssh-keysign-pwn-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+  slinky-azimuth:
+  - annotations:
+      azimuth.stackhpc.com/label: Slinky
+    apiVersion: v2
+    appVersion: 35c6895
+    created: "2026-07-09T09:15:26.710971883Z"
+    description: A containerised Slurm cluster.
+    digest: cbe639c6d48a9de00263e2e72923fadf305186f381a1c99c288139d04042e15f
+    icon: https://raw.githubusercontent.com/SlinkyProject/slurm-operator/main/docs/_static/images/slinky.svg
+    name: slinky-azimuth
+    type: application
+    urls:
+    - slinky-azimuth-0.1.0-dev.0.main.136.tgz
+    version: 0.1.0-dev.0.main.136
+generated: "2026-07-09T09:15:26.608155068Z"
