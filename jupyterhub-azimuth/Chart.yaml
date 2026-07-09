@@ -1,6 +1,6 @@
 apiVersion: v2
 name: jupyterhub-azimuth
-description: Multi-user Jupyter notebook environment.
+description: Multi-user Jupyter notebook environment. (Matt's testing, not for prod use)
 type: application
 version: 0.1.0
 appVersion: 2.0.0
