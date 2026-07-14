@@ -31,8 +31,6 @@ user_notebook_profiles:
   custom_profiles:
     # Label to look for on any node in the host k8s cluster
     nvidia.com/gpu.present:
-      # Label value to match against
-      label_value: "true"
       # Profiles to be included if node has a matching label
       profiles:
         - display_name: "Pytorch environment (Nvidia GPU)"
@@ -43,8 +41,6 @@ user_notebook_profiles:
             extra_resource_limits:
               nvidia.com/gpu: "1"
     gpu.intel.com/device-id.0380-0bd5.present:
-      # Label value to match against
-      label_value: "true"
       # Profiles to be included if node has a matching label
       profiles:    
         - display_name: "Pytorch environment (Intel GPU)"
@@ -58,8 +54,6 @@ user_notebook_profiles:
               - "110"
     # AMD doesn't have a "present" label, look up an arbitrary label instead
     amd.com/gpu.product-name:
-      # Label value to match against
-      label_value: "Instinct_MI210"
       # Profiles to be included if node has a matching label
       profiles:
         - display_name: "Pytorch environment (AMD GPU)"
