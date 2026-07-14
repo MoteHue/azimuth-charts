@@ -4,8 +4,26 @@ entries:
   - annotations:
       azimuth.stackhpc.com/label: Argo CD
     apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:53.924364006Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 9.1.6
+    description: An Argo CD environment for GitOps-based management of applications
+      deployed on Kubernetes.
+    digest: 505504d77f1a8a71d7af76704b49e197bc84e76cb325c68e6e2fc969ed96a4d4
+    icon: https://raw.githubusercontent.com/argoproj/argo-cd/release-2.11/docs/assets/argo.png
+    name: argocd-azimuth
+    type: application
+    urls:
+    - argocd-azimuth-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - annotations:
+      azimuth.stackhpc.com/label: Argo CD
+    apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.17471795Z"
+    created: "2026-07-14T08:04:53.911184304Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -23,7 +41,7 @@ entries:
       azimuth.stackhpc.com/label: Argo CD
     apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.162550321Z"
+    created: "2026-07-14T08:04:53.899405413Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -41,7 +59,7 @@ entries:
       azimuth.stackhpc.com/label: Argo CD
     apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.149985139Z"
+    created: "2026-07-14T08:04:53.88775945Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -59,7 +77,7 @@ entries:
       azimuth.stackhpc.com/label: Argo CD
     apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.136455611Z"
+    created: "2026-07-14T08:04:53.87538943Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -77,8 +95,28 @@ entries:
   - annotations:
       azimuth.stackhpc.com/label: BinderHub
     apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:53.949401724Z"
+    dependencies:
+    - name: binderhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.0.0-0.dev.git.3503.ha8a2e19
+    description: Multi-user BinderHub Jupyter notebook environment.
+    digest: 64576afcda8ca2f4acac6deaed0bf8e3fbb6824a31e826c3d008672b22d3cd9a
+    icon: https://raw.githubusercontent.com/jupyterhub/binderhub/main/binderhub/static/logo.svg
+    keywords:
+    - jupyter
+    - binderhub
+    name: binderhub-azimuth
+    type: application
+    urls:
+    - binderhub-azimuth-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - annotations:
+      azimuth.stackhpc.com/label: BinderHub
+    apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.197104002Z"
+    created: "2026-07-14T08:04:53.944849141Z"
     dependencies:
     - name: binderhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -98,7 +136,7 @@ entries:
       azimuth.stackhpc.com/label: BinderHub
     apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.191293808Z"
+    created: "2026-07-14T08:04:53.939043818Z"
     dependencies:
     - name: binderhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -118,7 +156,7 @@ entries:
       azimuth.stackhpc.com/label: BinderHub
     apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.186661969Z"
+    created: "2026-07-14T08:04:53.933586822Z"
     dependencies:
     - name: binderhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -138,7 +176,7 @@ entries:
       azimuth.stackhpc.com/label: BinderHub
     apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.180244563Z"
+    created: "2026-07-14T08:04:53.928948629Z"
     dependencies:
     - name: binderhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -158,8 +196,28 @@ entries:
   - annotations:
       azimuth.stackhpc.com/label: DaskHub
     apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:53.978537716Z"
+    dependencies:
+    - name: daskhub
+      repository: https://helm.dask.org/
+      version: 2024.1.1
+    description: Multi-user Jupyter notebook environment with Dask integration.
+    digest: 99bdf8b51aece8a95626e171100a742aba20a6a6f1416d3926aa4baa66577542
+    icon: https://docs.dask.org/en/stable/_images/dask_horizontal.svg
+    keywords:
+    - dask
+    - daskhub
+    name: daskhub-azimuth
+    type: application
+    urls:
+    - daskhub-azimuth-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - annotations:
+      azimuth.stackhpc.com/label: DaskHub
+    apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.22101156Z"
+    created: "2026-07-14T08:04:53.972619347Z"
     dependencies:
     - name: daskhub
       repository: https://helm.dask.org/
@@ -179,7 +237,7 @@ entries:
       azimuth.stackhpc.com/label: DaskHub
     apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.214750607Z"
+    created: "2026-07-14T08:04:53.967299964Z"
     dependencies:
     - name: daskhub
       repository: https://helm.dask.org/
@@ -199,7 +257,7 @@ entries:
       azimuth.stackhpc.com/label: DaskHub
     apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.208718789Z"
+    created: "2026-07-14T08:04:53.961635864Z"
     dependencies:
     - name: daskhub
       repository: https://helm.dask.org/
@@ -219,7 +277,7 @@ entries:
       azimuth.stackhpc.com/label: DaskHub
     apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.202348377Z"
+    created: "2026-07-14T08:04:53.95544869Z"
     dependencies:
     - name: daskhub
       repository: https://helm.dask.org/
@@ -239,8 +297,29 @@ entries:
   - annotations:
       azimuth.stackhpc.com/label: JupyterHubDev
     apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:53.997782137Z"
+    dependencies:
+    - name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 4.4.0
+    description: Multi-user Jupyter notebook environment. (Matt's testing, not for
+      prod use)
+    digest: a619cb8368e9b3a86460bd01ff79500a0a8382722b004cbb3afabd826dabac2a
+    icon: https://raw.githubusercontent.com/jupyterhub/helm-chart/gh-pages/images/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    name: jupyterhub-azimuth
+    type: application
+    urls:
+    - jupyterhub-azimuth-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - annotations:
+      azimuth.stackhpc.com/label: JupyterHubDev
+    apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.236435968Z"
+    created: "2026-07-14T08:04:53.993280306Z"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -261,7 +340,7 @@ entries:
       azimuth.stackhpc.com/label: JupyterHubDev
     apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.232816892Z"
+    created: "2026-07-14T08:04:53.989839249Z"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -282,7 +361,7 @@ entries:
       azimuth.stackhpc.com/label: JupyterHub
     apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.228052284Z"
+    created: "2026-07-14T08:04:53.986380599Z"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -303,7 +382,7 @@ entries:
       azimuth.stackhpc.com/label: JupyterHub
     apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.224566406Z"
+    created: "2026-07-14T08:04:53.981980967Z"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart/
@@ -323,8 +402,21 @@ entries:
   - annotations:
       azimuth.stackhpc.com/label: KubeFlow
     apiVersion: v1
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.195289337Z"
+    description: A KubeFlow machine learning environment (requires a cluster with
+      12+ CPUs and 16GB+ of RAM).
+    digest: 61086b9e1c9f114b314ecf0441256c755c2511eb7d5ccbc3d90c38c409a81e51
+    icon: https://raw.githubusercontent.com/azimuth-cloud/azimuth-charts/main/kubeflow-azimuth/logo.svg
+    name: kubeflow-azimuth
+    urls:
+    - kubeflow-azimuth-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - annotations:
+      azimuth.stackhpc.com/label: KubeFlow
+    apiVersion: v1
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.393672102Z"
+    created: "2026-07-14T08:04:54.152907795Z"
     description: A KubeFlow machine learning environment (requires a cluster with
       12+ CPUs and 16GB+ of RAM).
     digest: cc86e3c7c7286083de78d260c36bc5579de41de1b219823ff5004ec23f035bfb
@@ -337,7 +429,7 @@ entries:
       azimuth.stackhpc.com/label: KubeFlow
     apiVersion: v1
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.354203002Z"
+    created: "2026-07-14T08:04:54.11508666Z"
     description: A KubeFlow machine learning environment (requires a cluster with
       12+ CPUs and 16GB+ of RAM).
     digest: 4b5aad9a7c563112e80a1c2875a435239ce608b349b1257464c36d57880c60f8
@@ -350,7 +442,7 @@ entries:
       azimuth.stackhpc.com/label: KubeFlow
     apiVersion: v1
     appVersion: b173570
-    created: "2026-07-13T16:07:35.313368736Z"
+    created: "2026-07-14T08:04:54.074679648Z"
     description: A KubeFlow machine learning environment (requires a cluster with
       12+ CPUs and 16GB+ of RAM).
     digest: 94bfdce1e91fb0057dfc53657369771f5d5e412c13c79cf1de5a99c39334fa84
@@ -363,7 +455,7 @@ entries:
       azimuth.stackhpc.com/label: KubeFlow
     apiVersion: v1
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.27662648Z"
+    created: "2026-07-14T08:04:54.038328742Z"
     description: A KubeFlow machine learning environment (requires a cluster with
       12+ CPUs and 16GB+ of RAM).
     digest: 941c0f63d6a04f6e988bab9a3b3be8f32adce86e2348cd10e05e28b3a999e648
@@ -374,8 +466,16 @@ entries:
     version: 0.1.0-dev.0.main.136
   kubeflow-crds:
   - apiVersion: v1
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.3633913Z"
+    digest: 655bd24defb808748d8c0c7c954ec49790e628c0bc26a652bdff0c4fb046f8a4
+    name: kubeflow-crds
+    urls:
+    - kubeflow-crds-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - apiVersion: v1
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.526758657Z"
+    created: "2026-07-14T08:04:54.328955538Z"
     digest: 8bfa109f775ac08ee692e21474ebd6fcdcbc2d92bedd841c68fd27f283173722
     name: kubeflow-crds
     urls:
@@ -383,7 +483,7 @@ entries:
     version: 0.1.0-dev.0.main.139
   - apiVersion: v1
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.491448658Z"
+    created: "2026-07-14T08:04:54.295855537Z"
     digest: c7168d79a85723c34aceb0a6891de8feb677ddf870c700d53a4b651b9d63fbbd
     name: kubeflow-crds
     urls:
@@ -391,7 +491,7 @@ entries:
     version: 0.1.0-dev.0.main.138
   - apiVersion: v1
     appVersion: b173570
-    created: "2026-07-13T16:07:35.458812823Z"
+    created: "2026-07-14T08:04:54.260940222Z"
     digest: f8bfdb3d291f5e6837f6276bc0b4d1d9e9041d411f52f772e6f3a53bc1374bb7
     name: kubeflow-crds
     urls:
@@ -399,7 +499,7 @@ entries:
     version: 0.1.0-dev.0.main.137
   - apiVersion: v1
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.427167057Z"
+    created: "2026-07-14T08:04:54.225899944Z"
     digest: fca0f588193fc72212bc896f4e558a9b71108dc0ea9aba8b494b6693d3ef5559
     name: kubeflow-crds
     urls:
@@ -407,8 +507,19 @@ entries:
     version: 0.1.0-dev.0.main.136
   patch-copy-fail:
   - apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.364587915Z"
+    description: 'Helm chart for deploying a daemonset to mitigate CVE-2026-31431
+      on a kubeadm cluster. '
+    digest: 0f23e4a81dd4f68c4cb8694482468e4bfdd57b4af369f0d5ae8363a177d30875
+    name: patch-copy-fail
+    type: application
+    urls:
+    - patch-copy-fail-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.52766383Z"
+    created: "2026-07-14T08:04:54.364349822Z"
     description: 'Helm chart for deploying a daemonset to mitigate CVE-2026-31431
       on a kubeadm cluster. '
     digest: d5c40202c2c2d113fd27dbb7a172da7b1f8f0120b3270c4f40229de20a839588
@@ -419,7 +530,7 @@ entries:
     version: 0.1.0-dev.0.main.139
   - apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.527462864Z"
+    created: "2026-07-14T08:04:54.364120245Z"
     description: 'Helm chart for deploying a daemonset to mitigate CVE-2026-31431
       on a kubeadm cluster. '
     digest: e4576c93ab5c0afaa00282d518ce3c74dfbcb1911dcb783da4e1494effd6fe92
@@ -430,7 +541,7 @@ entries:
     version: 0.1.0-dev.0.main.138
   - apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.527253743Z"
+    created: "2026-07-14T08:04:54.363878957Z"
     description: 'Helm chart for deploying a daemonset to mitigate CVE-2026-31431
       on a kubeadm cluster. '
     digest: 5e0aabdb9415bb2c751b4b9ad2cf7eed97a2cf9346370aa2520fdcc1d6ff37ec
@@ -441,7 +552,7 @@ entries:
     version: 0.1.0-dev.0.main.137
   - apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.527040063Z"
+    created: "2026-07-14T08:04:54.363645513Z"
     description: 'Helm chart for deploying a daemonset to mitigate CVE-2026-31431
       on a kubeadm cluster. '
     digest: 7326be272b77673fa199b68cc900a051a4f3766f2b567dd3b1cb3e0bb7fe1ddd
@@ -452,8 +563,19 @@ entries:
     version: 0.1.0-dev.0.main.136
   patch-cves:
   - apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.36598906Z"
+    description: 'Helm chart for deploying a daemonset to apply runtime CVE mitigations
+      to hosts '
+    digest: 4b1dc9de81c1cce7978ea167de35c1f5a7e872a2c9e4a4eec73df5d3fe966aee
+    name: patch-cves
+    type: application
+    urls:
+    - patch-cves-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.528613806Z"
+    created: "2026-07-14T08:04:54.365699101Z"
     description: 'Helm chart for deploying a daemonset to apply runtime CVE mitigations
       to hosts '
     digest: 960d294fd89429e886e1f7ad8a5bd88e33574d73b93891a919798eb5ce668581
@@ -464,7 +586,7 @@ entries:
     version: 0.1.0-dev.0.main.139
   - apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.528382914Z"
+    created: "2026-07-14T08:04:54.365431643Z"
     description: 'Helm chart for deploying a daemonset to apply runtime CVE mitigations
       to hosts '
     digest: 03291c5a59ac7ecca89c33a06b1eb22ceb44e2b1dd741be949f0f618772055b4
@@ -475,7 +597,7 @@ entries:
     version: 0.1.0-dev.0.main.138
   - apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.52815622Z"
+    created: "2026-07-14T08:04:54.365159347Z"
     description: 'Helm chart for deploying a daemonset to apply runtime CVE mitigations
       to hosts '
     digest: 75bfbc0f30a51df92df4986833bde785a5279ad30e487c3198bddd169f28c8ef
@@ -486,7 +608,7 @@ entries:
     version: 0.1.0-dev.0.main.137
   - apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.527920519Z"
+    created: "2026-07-14T08:04:54.364889756Z"
     description: 'Helm chart for deploying a daemonset to apply runtime CVE mitigations
       to hosts '
     digest: 005c5f8a907c39fc6eaed72189425825b8bce78369e8baf9873bc575e43ee0f2
@@ -497,8 +619,19 @@ entries:
     version: 0.1.0-dev.0.main.136
   patch-dirty-frag:
   - apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.36722103Z"
+    description: 'Helm chart for deploying a daemonset to mitigate dirty-frag on a
+      kubeadm cluster. '
+    digest: 212700ea344c7803a9a89e2cd890cff9989f256a2dc834fb68fda034a99fea8f
+    name: patch-dirty-frag
+    type: application
+    urls:
+    - patch-dirty-frag-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.529453315Z"
+    created: "2026-07-14T08:04:54.366980893Z"
     description: 'Helm chart for deploying a daemonset to mitigate dirty-frag on a
       kubeadm cluster. '
     digest: 8f9d16040047098a473994ace1e77034174d9422586509b557409e3b14b5cea5
@@ -509,7 +642,7 @@ entries:
     version: 0.1.0-dev.0.main.139
   - apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.529252009Z"
+    created: "2026-07-14T08:04:54.366709499Z"
     description: 'Helm chart for deploying a daemonset to mitigate dirty-frag on a
       kubeadm cluster. '
     digest: 6c2b092706ed10fcb8c4d46e7b17220f0f3e0fd1d60c044404b0903ffc851d71
@@ -520,7 +653,7 @@ entries:
     version: 0.1.0-dev.0.main.138
   - apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.5290491Z"
+    created: "2026-07-14T08:04:54.366467689Z"
     description: 'Helm chart for deploying a daemonset to mitigate dirty-frag on a
       kubeadm cluster. '
     digest: 93d67cc8f7c17dcd28b618ffb73c8b4b8235b1457ec00d29e48ab7943219ffb0
@@ -531,7 +664,7 @@ entries:
     version: 0.1.0-dev.0.main.137
   - apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.528816224Z"
+    created: "2026-07-14T08:04:54.366228865Z"
     description: 'Helm chart for deploying a daemonset to mitigate dirty-frag on a
       kubeadm cluster. '
     digest: ff749d07da8ec93f8566194121d5b1a0f7f2bfe76ee313bdd9202397527cff4a
@@ -542,8 +675,19 @@ entries:
     version: 0.1.0-dev.0.main.136
   patch-ssh-keysign-pwn:
   - apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.369379428Z"
+    description: 'Helm chart for deploying a daemonset to mitigate ssh-keysign-pwn
+      on a kubeadm cluster. '
+    digest: 02b79d5d689706a7a014901becb7347eedf8a84c1dadd5760643396224aacb31
+    name: patch-ssh-keysign-pwn
+    type: application
+    urls:
+    - patch-ssh-keysign-pwn-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.530287255Z"
+    created: "2026-07-14T08:04:54.369137719Z"
     description: 'Helm chart for deploying a daemonset to mitigate ssh-keysign-pwn
       on a kubeadm cluster. '
     digest: 73fb3b39a9a3fab7e3ef33de8ad5642d0fc9f18f40ccdcd88c4eed72cc2ebade
@@ -554,7 +698,7 @@ entries:
     version: 0.1.0-dev.0.main.139
   - apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.530090707Z"
+    created: "2026-07-14T08:04:54.368882725Z"
     description: 'Helm chart for deploying a daemonset to mitigate ssh-keysign-pwn
       on a kubeadm cluster. '
     digest: af7c6ef7742c8a016263a62ca4ed8d2f50e0e369161b84c0fb817881390d3131
@@ -565,7 +709,7 @@ entries:
     version: 0.1.0-dev.0.main.138
   - apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.5298837Z"
+    created: "2026-07-14T08:04:54.368438008Z"
     description: 'Helm chart for deploying a daemonset to mitigate ssh-keysign-pwn
       on a kubeadm cluster. '
     digest: 36b7d69561db1b8634dc6166435ae35b4dea9164fa5330397cde6922a50be7b8
@@ -576,7 +720,7 @@ entries:
     version: 0.1.0-dev.0.main.137
   - apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.529662146Z"
+    created: "2026-07-14T08:04:54.367921172Z"
     description: 'Helm chart for deploying a daemonset to mitigate ssh-keysign-pwn
       on a kubeadm cluster. '
     digest: 12cf4145cfe1c4e96d7a6e08b8b7d30595c7e0b35ecfe6244a0698fc0a0ddc6a
@@ -589,8 +733,21 @@ entries:
   - annotations:
       azimuth.stackhpc.com/label: Slinky
     apiVersion: v2
+    appVersion: 4ffeb7f
+    created: "2026-07-14T08:04:54.370733255Z"
+    description: A containerised Slurm cluster.
+    digest: d8ae8fc9a599638145b1eac0efc041eabdd1d676f79b2a02c2c753b324e0e08f
+    icon: https://raw.githubusercontent.com/SlinkyProject/slurm-operator/main/docs/_static/images/slinky.svg
+    name: slinky-azimuth
+    type: application
+    urls:
+    - slinky-azimuth-0.1.0-dev.0.main.140.tgz
+    version: 0.1.0-dev.0.main.140
+  - annotations:
+      azimuth.stackhpc.com/label: Slinky
+    apiVersion: v2
     appVersion: e20754d
-    created: "2026-07-13T16:07:35.531286673Z"
+    created: "2026-07-14T08:04:54.37048825Z"
     description: A containerised Slurm cluster.
     digest: 9ab51ad0bad0e924344f81e5392128a171e6d61154028ce0fe8868f4900e509c
     icon: https://raw.githubusercontent.com/SlinkyProject/slurm-operator/main/docs/_static/images/slinky.svg
@@ -603,7 +760,7 @@ entries:
       azimuth.stackhpc.com/label: Slinky
     apiVersion: v2
     appVersion: 45d4b44
-    created: "2026-07-13T16:07:35.531046454Z"
+    created: "2026-07-14T08:04:54.370245428Z"
     description: A containerised Slurm cluster.
     digest: 2578032ff42a915a12fb5b62cab962be7bfcee1084b9a5f314d2b372a4de4f7c
     icon: https://raw.githubusercontent.com/SlinkyProject/slurm-operator/main/docs/_static/images/slinky.svg
@@ -616,7 +773,7 @@ entries:
       azimuth.stackhpc.com/label: Slinky
     apiVersion: v2
     appVersion: b173570
-    created: "2026-07-13T16:07:35.530777531Z"
+    created: "2026-07-14T08:04:54.369989112Z"
     description: A containerised Slurm cluster.
     digest: 9c278f60b4bfe6cb7ca4f1238eaf29ae938f7b578e99a776d23fc69b0ca46b64
     icon: https://raw.githubusercontent.com/SlinkyProject/slurm-operator/main/docs/_static/images/slinky.svg
@@ -629,7 +786,7 @@ entries:
       azimuth.stackhpc.com/label: Slinky
     apiVersion: v2
     appVersion: 35c6895
-    created: "2026-07-13T16:07:35.530533705Z"
+    created: "2026-07-14T08:04:54.369668626Z"
     description: A containerised Slurm cluster.
     digest: cbe639c6d48a9de00263e2e72923fadf305186f381a1c99c288139d04042e15f
     icon: https://raw.githubusercontent.com/SlinkyProject/slurm-operator/main/docs/_static/images/slinky.svg
@@ -638,4 +795,4 @@ entries:
     urls:
     - slinky-azimuth-0.1.0-dev.0.main.136.tgz
     version: 0.1.0-dev.0.main.136
-generated: "2026-07-13T16:07:35.124016555Z"
+generated: "2026-07-14T08:04:53.861949363Z"
