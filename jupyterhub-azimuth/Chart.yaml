@@ -1,6 +1,6 @@
 apiVersion: v2
 name: jupyterhub-azimuth
-description: Multi-user Jupyter notebook environment. (Matt's testing, not for prod use)
+description: Multi-user Jupyter notebook environment.
 type: application
 version: 0.1.0
 appVersion: 2.0.0
@@ -15,4 +15,4 @@ dependencies:
     repository: https://jupyterhub.github.io/helm-chart/
 
 annotations:
-  azimuth.stackhpc.com/label: JupyterHubDev
+  azimuth.stackhpc.com/label: JupyterHub
